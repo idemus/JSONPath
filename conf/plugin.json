@@ -1,6 +1,6 @@
 {
-  "name": "NodeDemoPlugin",
-  "description": "Node Demo Plugin",
+  "name": "JSONPathPlugin",
+  "description": "JSONPath plugin for use with Simplifier",
   "version": "1.0",
-  "vendor": "Simplifier AG"
+  "vendor": "idemus solutions GmbH"
 }

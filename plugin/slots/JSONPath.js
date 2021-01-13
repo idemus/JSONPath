@@ -1,19 +1,20 @@
 "use strict";
 
 let Slot = require('../../lib/slot');
+let JSONPath = require('JSONPath');
 
-class SayHelloSlot extends Slot {
+class JSONPath extends Slot {
 
     constructor() {
-        super("sayHello");
+        super("JSONPath");
     }
 
     execute(payload, userId) {
         let name = payload['name'] || 'World';
         return {
-            "greeting": `Hello ${name}`
+            "greeting": `Hello ${name} from JSONPath`
         }
     }
 }
 
-module.exports = new SayHelloSlot();
+module.exports = new JSONPath();

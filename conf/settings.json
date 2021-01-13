@@ -2,12 +2,12 @@
 "registration": {
   "host": "simplifier-d",
   "port": 8085,
-  "secret": "94ECC09388FA90B293F4D70245390762ABB08777CB1F58478CFD0BD0DA476F71" 
+  "secret": "94ECC09388FA90B293F4D70245390762ABB08777CB1F58478CFD0BD0DA476F71"
 },
 "http": {
   "interface": "0.0.0.0",
   "port": 9877,
-  "exposedHost": "ldap"
+  "exposedHost": "jsonpath"
 },
 "timeoutSeconds": 60
 }

@@ -7,7 +7,7 @@ let router = express.Router();
 let debug = require('debug')('slotInterface');
 
 const slots = [
-    require('../slots/SayHelloSlot'),
+    require('../slots/JSONPath'),
     require('../slots/PrintToConsoleSlot')
 ];
 
