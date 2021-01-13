@@ -1,0 +1,11 @@
+FROM node:current-stretch
+
+#install node application
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN npm install
+COPY . .
+EXPOSE 9877
+
+#start application
+ENTRYPOINT [ "node", "../../bin/runPlugin.js"]

@@ -1,0 +1,22 @@
+{
+  "Type": "sap.ui.core.mvc.JSONView",
+  "controllerName": "io.simplifier.ui5.plugin.NodeDemoPlugin.demo",
+  "content": [
+    {
+      "Type": "sap.m.Panel",
+      "width": "100%",
+      "height": "500px",
+      "content": [
+        {
+          "Type": "sap.m.MessagePage",
+          "icon": "sap-icon://lab",
+          "showNavButton": true,
+          "navButtonPress": "onBackToPlugins",
+          "title": "NodeDemoPlugin",
+          "text": "Welcome to Node.JS Demo Plugin",
+          "description": "This plugin is connected via Akka-Http."
+        }
+      ]
+    }
+  ]
+}
