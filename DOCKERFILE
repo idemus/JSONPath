@@ -8,4 +8,4 @@ COPY . .
 EXPOSE 9877
 
 #start application
-ENTRYPOINT [ "node", "../../bin/runPlugin.js"]
+ENTRYPOINT [ "node", "./bin/runPlugin.js"]

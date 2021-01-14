@@ -6,7 +6,7 @@ let Slot = require('../../lib/slot');
 class JSONPath extends Slot {
 
     constructor() {
-        super("JSONPath");
+        super("checkJSON");
     }
 
     execute(payload, userId) {
