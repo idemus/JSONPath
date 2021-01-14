@@ -1,7 +1,7 @@
 "use strict";
 
 let Slot = require('../../lib/slot');
-let checkJSON = require('JSONPath');
+//let checkJSON = require('JSONPath');
 
 class JSONPath extends Slot {
 
