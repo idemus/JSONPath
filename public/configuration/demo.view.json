@@ -12,9 +12,9 @@
           "icon": "sap-icon://lab",
           "showNavButton": true,
           "navButtonPress": "onBackToPlugins",
-          "title": "NodeDemoPlugin",
-          "text": "Welcome to Node.JS Demo Plugin",
-          "description": "This plugin is connected via Akka-Http."
+          "title": "JSONPATH Plugin",
+          "text": "NodeJS-Plugin including JSONPath library",
+          "description": "for documentation see https://www.npmjs.com/package/jsonpath"
         }
       ]
     }
