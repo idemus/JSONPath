@@ -1,7 +1,7 @@
 "use strict";
 
 let Slot = require('../../lib/slot');
-let JsonPath = require('jsonpath');
+let jp = require('jsonpath');
 
 class JSONPath extends Slot {
 
@@ -10,9 +10,11 @@ class JSONPath extends Slot {
     }
 
     execute(payload, userId) {
-        let name = payload['name'] || 'World';
+        let jsonToCheck = payload['json'];
+
+        var authors = jp.query(jsonToCheck, '$..author');
         return {
-            "greeting": `Hello ${name} from JSONPath`
+            "result": authors
         }
     }
 }
