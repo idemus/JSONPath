@@ -11,10 +11,11 @@ class JSONPath extends Slot {
 
     execute(payload, userId) {
         let jsonToCheck = payload['json'];
+        let query = payload['query'];
 
-        var authors = jp.query(jsonToCheck, '$..author');
+        var result = jp.query(jsonToCheck, query);
         return {
-            "result": authors
+            "result": result
         }
     }
 }
