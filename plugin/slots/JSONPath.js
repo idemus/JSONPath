@@ -6,7 +6,7 @@ let jp = require('jsonpath');
 class JSONPath extends Slot {
 
     constructor() {
-        super("checkJSON");
+        super("checkJSONForAutomaticProvisioning");
     }
 
     execute(payload, userId) {
