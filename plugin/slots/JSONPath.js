@@ -14,9 +14,7 @@ class JSONPath extends Slot {
         let query = payload['query'];
 
         var result = jp.query(jsonToCheck, query);
-        return {
-            "result": result
-        }
+        return result
     }
 }
 
